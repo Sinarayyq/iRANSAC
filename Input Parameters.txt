@@ -1,0 +1,44 @@
+#This is a file for setting input parameters in the surface fitting program.
+#Please, follow this standard format:
+#
+#PLANE_METHOD_TYPE (0 for RANSAC, 1 for PROSAC)
+#CYL_METHOD_TYPE (0 for RANSAC, 1 for PROSAC)
+#CONE_METHOD_TYPE (0 for RANSAC, 1 for PROSAC)
+#PLANE_TOL
+#CYL_TOL
+#CONE_TOL
+#PLANE_MAX_NUM_ITER
+#CYL_MAX_NUM_ITER
+#CONE_MAX_NUM_ITER
+#CYL_WEIGHT_NORMAL_DISTANCE
+#CONE_WEIGHT_NORMAL_DISTANCE
+#CYL_MIN_RADIUS_LIMIT
+#CYL_MAX_RADIUS_LIMIT
+#CONE_MIN_RADIUS_LIMIT
+#CONE_MAX_RADIUS_LIMIT
+#CONE_MIN_OPENING_ANGLE (in degree, double format)
+#CONE_MAX_OPENING_ANGLE (in degree, double format)
+#PERCENTAGE
+#REMESH_PARAMETER
+#
+#Here follows your parameters.
+#
+0
+0
+0
+10
+10
+10
+50000
+50000
+50000
+0.1
+0.1
+0
+100000
+0
+100000
+5.0
+85.0
+0.98
+0.0021
